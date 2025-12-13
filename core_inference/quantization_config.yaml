@@ -1,0 +1,7 @@
+profiles:
+  edge_4bit:
+    quant: q4_k_m
+    context: 8192
+  server_fp16:
+    quant: fp16
+    context: 32768

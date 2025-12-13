@@ -1,0 +1,26 @@
+[project]
+name = "sia"
+version = "0.1.0"
+description = "Strategic Insider Assistant (SIA) - Sovereign, Hierarchical Intelligence System"
+requires-python = ">=3.10"
+dependencies = [
+  "streamlit>=1.35",
+  "pydantic>=2.7",
+  "requests>=2.31",
+  "numpy>=1.26",
+  "scipy>=1.12",
+  "networkx>=3.2",
+  "neo4j>=5.19",
+  "lancedb>=0.10.0",
+  "pyarrow>=15.0.0",
+  "langgraph>=0.2.0",
+  "python-dotenv>=1.0.1",
+]
+
+[project.optional-dependencies]
+causal = ["dowhy>=0.12", "causalpy>=0.2.0", "pandas>=2.1"]
+nemo = ["nemoguardrails>=0.9.0"]
+dev = ["ruff>=0.5.0", "pytest>=8.0", "mypy>=1.10"]
+
+[tool.ruff]
+line-length = 100

@@ -1,0 +1,29 @@
+{
+  "created_utc": "2025-12-13T21:43:53.655417Z",
+  "embedding_dim": 384,
+  "baseline_mean": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "baseline_var": [
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0,
+    1.0
+  ],
+  "notes": "Replace with real baseline stats after ingesting trusted corpora."
+}
